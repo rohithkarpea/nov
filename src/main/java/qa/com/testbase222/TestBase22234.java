@@ -11,9 +11,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class TestBase22234 {
 
-   public static	Properties props;
-
+   public static Properties props;
    public static WebDriver driver;
+   
     FileInputStream file;
 	public TestBase22234() {
 		

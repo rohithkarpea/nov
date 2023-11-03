@@ -1,6 +1,5 @@
 package qa.com.pageobjects222;
 
-import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -24,10 +23,12 @@ public class login_function222 extends TestBase22234 {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void valide() {
+	public void validelogin() {
 		usar.sendKeys(props.getProperty("username"));
 		psd.sendKeys(props.getProperty("password"));
 		lgn.click();
+		
+		
 	}
 	
 }

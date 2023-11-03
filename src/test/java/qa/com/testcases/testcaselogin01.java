@@ -10,21 +10,17 @@ public class testcaselogin01  extends TestBase22234{
 
 	login_function222 lav;
 	public testcaselogin01() {
-		super();
-		
+		super();	
 	}
-	
 	@BeforeMethod
 	public void inta() {
-		
 		set();
 		
-		 lav=new  login_function222(driver);
-		 
+		 lav=new login_function222(driver);
 	}
 	
 	@Test
 	public void log() {
-		lav.valide();
+		lav.validelogin();
 	}
 }
