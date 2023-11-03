@@ -24,10 +24,11 @@ public class login_function222 extends TestBase22234 {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void valide() {
+	public void valide() throws Throwable {
 		usar.sendKeys(props.getProperty("username"));
 		psd.sendKeys(props.getProperty("password"));
 		lgn.click();
+		Thread.sleep(3000);
 	}
 	
 }
