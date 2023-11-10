@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-10T17:06:40 IST" name="Default suite" finished-at="2023-11-10T17:07:01 IST" duration-ms="20590">
+    <groups>
+    </groups>
+    <test started-at="2023-11-10T17:06:40 IST" name="Default test" finished-at="2023-11-10T17:07:01 IST" duration-ms="20590">
+      <class name="com.test.StandByRegistertest">
+        <test-method is-config="true" signature="strgF()[pri:0, instance:com.test.StandByRegistertest@67d48005]" started-at="2023-11-10T17:06:40 IST" name="strgF" finished-at="2023-11-10T17:06:44 IST" duration-ms="3755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- strgF -->
+        <test-method signature="log()[pri:0, instance:com.test.StandByRegistertest@67d48005]" started-at="2023-11-10T17:06:44 IST" name="log" finished-at="2023-11-10T17:07:01 IST" duration-ms="16791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+      </class> <!-- com.test.StandByRegistertest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
